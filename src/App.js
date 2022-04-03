@@ -6,6 +6,7 @@ import Reviews from './components/Reviews/Reviews';
 import Dashboard from './components/Dashboard/Dashboard'
 import Blogs from './components/Blogs/Blogs'
 import NotFound from './components/NotFound/NotFound';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/blogs' element={ <Blogs/> }></Route>
         <Route path='*' element={ <NotFound/> }></Route>
       </Routes>
+
     </div>
   );
 }

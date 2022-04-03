@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Review = ({review}) => {
     const {picture, comment, name, rating} = review
@@ -12,7 +13,7 @@ const Review = ({review}) => {
             <p className="mt-2 text-gray-600">{comment}</p>
           </div>
           <div className="flex justify-end mt-4">
-            <p href="#" class="text-xl font-medium text-indigo-500">{name}</p>
+            <p  class="text-xl font-medium text-indigo-500">{name}</p>
           </div>
         </div>
         

@@ -1,0 +1,45 @@
+[
+    {
+      "id": "1",
+      "picture": "./customers/player-1.png",
+      "rating": "4",
+      "comment": "I loved the packaging. The pink syngonium plant that I got was infected. But because of separate packaging, the remaining plants are healthy. After I complained about the plant that was infected, they quickly sent me a second package with four healthy plants. It's been over a month now and all of the plants are well.",
+      "name": "John Smith"
+    },
+    {
+      "id": "2",
+      "picture": "./customers/player-2.png",
+      "rating": 3,
+      "comment": "Some leaves are green and some leaves are greenish yellow but anyway it looks great!",
+      "name": "Pro Rasel"
+    },
+    {
+      "id": "3",
+      "picture": "./customers/player-3.png",
+      "rating": 2,
+      "comment": "The customer service is excellent. One of the plants was delivered with leaves looking bit dull. They themselves took the initiative to deliver a new one free of cost. Tbey belive in customer satisfaction which I hold in high regards. Giveit a try and decorate your house or work place with lively plants and fresh ambiance.",
+      "name": "Abu Sufian"
+    },
+    {
+      "id": "4",
+      "picture": "./customers/player-4.png",
+      "rating": 1,
+      "comment": "Value for money, sturdiness durability Very happy with this produc Minimal care required Easy to take care of it",
+      "name": "Olivia"
+    },
+    {
+      "id": "5",
+      "picture": "./customers/player-5.png",
+      "rating": 2,
+      "comment": "The plants arrived on time and were in good condition. However, there was a small crack in one of the pots. On contacting the seller, they sent a replacement which arrived within 5 days. It's an excellent buy!",
+      "name": "Benjamin"
+    },
+    {
+      "id": "6",
+      "picture": "./customers/player-6.png",
+      "rating": 4,
+      "comment": "Plants are very small and not as per picture shown. 2 plants are not in good condition Disappointed",
+      "name": "Sergio"
+    }
+    
+  ]

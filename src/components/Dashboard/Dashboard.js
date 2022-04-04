@@ -43,7 +43,7 @@ const Dashboard = () => {
     return (
         <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 mt-20'>
             <div className='chart-1 px-10 mx-auto'>
-                <h1 className='text-center text-xl mb-6'>Monthly Chart</h1>
+                <h1 className='text-center text-xl mb-6'>MONTH WISE SELL</h1>
             <LineChart width={500} height={500} data={data}>
            <Line dataKey={'sell'}></Line>
            <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
@@ -55,7 +55,7 @@ const Dashboard = () => {
             </div>
 
             <div className='chart-2 px-10 mx-auto'>
-            <h1 className='text-center text-xl mb-6'>Monthly Chart</h1>
+            <h1 className='text-center text-xl mb-6'>Investment VS Revenue</h1>
 
             <AreaChart width={500}
           height={500}

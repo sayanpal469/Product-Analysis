@@ -1,5 +1,5 @@
 import React from 'react';
-import { Area, AreaChart, CartesianGrid, Legend, Line, LineChart, XAxis, YAxis } from 'recharts';
+import { Area, AreaChart, CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const Dashboard = () => {
    const data = [
@@ -44,11 +44,12 @@ const Dashboard = () => {
         <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 mt-20'>
             <div className='chart-1 px-10 mx-auto'>
                 <h1 className='text-center text-xl mb-6'>Monthly Chart</h1>
-            <LineChart width={400} height={500} data={data}>
+            <LineChart width={500} height={500} data={data}>
            <Line dataKey={'sell'}></Line>
            <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
            <XAxis dataKey={'month'} />
            <YAxis></YAxis>
+           <Tooltip></Tooltip>
            <Legend />
             </LineChart>
             </div>
@@ -57,7 +58,7 @@ const Dashboard = () => {
             <h1 className='text-center text-xl mb-6'>Monthly Chart</h1>
 
             <AreaChart width={500}
-          height={400}
+          height={500}
           data={data}
           margin={{
             top: 10,
@@ -68,9 +69,9 @@ const Dashboard = () => {
           <Area type="monotone" dataKey={"investment"} stackId="1" stroke="#8884d8" fill="#8884d8" />
           <Area type="monotone" dataKey={"revenue"} stackId="1" stroke="#82ca9d" fill="#82ca9d" />
 <CartesianGrid stroke="#ccc" strokeDasharray="3 3" />
-          <XAxis dataKey={"revenue"} />
-          
+          <XAxis dataKey={"revenue"} /> 
  <YAxis />
+ <Tooltip></Tooltip>
         </AreaChart>
             </div>
         </div>
